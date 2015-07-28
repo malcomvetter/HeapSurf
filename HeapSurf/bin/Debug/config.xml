@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PollingIntervalSeconds>2</PollingIntervalSeconds>
+  <FilePath>C:\cc.xml</FilePath>
+  <Processes>
+    <string>ealtswml.386</string>
+    <string>POS</string>
+    <string>POS.vshost</string>
+    <string>IDPOS</string>
+    <string>IDPOS.exe</string>
+    <string>DMIDPOSSPM</string>
+    <string>DMIDPOSSPM.exe</string>
+    <string>posgateway</string>
+    <string>iexplore</string>
+    <string>notepad</string>
+  </Processes>
+  <ConsoleOutput>true</ConsoleOutput>
+  <FallBackToProcdump>true</FallBackToProcdump>
+</Config>
